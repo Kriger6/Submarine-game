@@ -40,9 +40,9 @@ const start = () => {
     
 
     fourModuleInput(playerBoard, player, banSurroundings)
-    // threeModuleInput(playerBoard, player, banSurroundings, threeModuleSpacing, secondInputSpacing)
-    // twoModuleInput(playerBoard, player, banSurroundings, twoModuleSpacing)
-    // oneModuleInput(playerBoard, player, banSurroundings)
+    threeModuleInput(playerBoard, player, banSurroundings, threeModuleSpacing, secondInputSpacing)
+    twoModuleInput(playerBoard, player, banSurroundings, twoModuleSpacing)
+    oneModuleInput(playerBoard, player, banSurroundings)
 
   }
 
