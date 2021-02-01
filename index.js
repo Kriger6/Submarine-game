@@ -1,11 +1,11 @@
 "use strict";
 
-import banSurroundings from '/banSurroundings.js'
-import fourModuleInput from '/fourModuleInput.js'
-import threeModuleInput from '/threeModuleInput.js'
-import twoModuleInput from '/twoModuleInput.js'
-import oneModuleInput from '/oneModuleInput.js'
-import {twoModuleSpacing, threeModuleSpacing, secondInputSpacing} from '/spaceValidation.js';
+import banSurroundings from './banSurroundings.js'
+import fourModuleInput from './fourModuleInput.js'
+import threeModuleInput from './threeModuleInput.js'
+import twoModuleInput from './twoModuleInput.js'
+import oneModuleInput from './oneModuleInput.js'
+import {twoModuleSpacing, threeModuleSpacing, secondInputSpacing} from './spaceValidation.js';
 import attack from './attack.js';
 
 
