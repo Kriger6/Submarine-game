@@ -6,8 +6,8 @@ const threeModuleInput = (playerBoard, player, banSurroundings, threeModuleSpaci
             x = parseInt(x)
             y = parseInt(y)
         }
-        while (threeModuleSpacing(x, y, playerBoard) === false 
-        || isNaN(x) === true || isNaN(y) === true
+        while (isNaN(x) === true || isNaN(y) === true
+        || threeModuleSpacing(x, y, playerBoard) === false  
         || x > playerBoard.length - 1 || y > playerBoard.length - 1
         || x < playerBoard.length - 10 || y < playerBoard.length - 10
         || playerBoard[y][x] === 0 || playerBoard[y][x] === undefined)
@@ -23,8 +23,8 @@ const threeModuleInput = (playerBoard, player, banSurroundings, threeModuleSpaci
             x = parseInt(x)
             y = parseInt(y)
         }
-        while (secondInputSpacing(x, y, firstModuleX, firstModuleY, playerBoard) === false 
-        || isNaN(x) === true || isNaN(y) === true
+        while (isNaN(x) === true || isNaN(y) === true 
+        || secondInputSpacing(x, y, firstModuleX, firstModuleY, playerBoard) === false 
         || x > playerBoard.length - 1 || y > playerBoard.length - 1
         || x < playerBoard.length - 10 || y < playerBoard.length - 10
         || playerBoard[y][x] === 0 || playerBoard[y][x] === undefined
